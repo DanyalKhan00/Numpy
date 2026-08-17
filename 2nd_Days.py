@@ -152,17 +152,17 @@
 # quantity =[]
 # for i in range(size):
 #     p = int(input("Enter Price : "))
-#     price.append(p)
-#     q = int(input("Enter Quantity : "))
-#     quantity.append(q)
-# price = np.array(price)
-# quantity = np.array(quantity)
-# total  = price * quantity
-# print("Total price : " , total)
-# discount = total * 10 / 100
-# print("Total Discount : " , discount)
-# final_price = total - discount
-# print("Final Price : " , final_price)
-# print("Grand Total:", np.sum(final_price))
+    price.append(p)
+    q = int(input("Enter Quantity : "))
+    quantity.append(q)
+price = np.array(price)
+quantity = np.array(quantity)
+total  = price * quantity
+print("Total price : " , total)
+discount = total * 10 / 100
+print("Total Discount : " , discount)
+final_price = total - discount
+print("Final Price : " , final_price)
+print("Grand Total:", np.sum(final_price))
 
 
