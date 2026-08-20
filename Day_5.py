@@ -123,3 +123,10 @@
 # idx = [0,2,4]
 # salary[idx]=salary[idx] * 1.10
 # print(salary)
+
+import numpy as np
+x= np.array([2,4,6,8])
+y = np.array([6,3,4,2])
+
+b= np.power(x,y)
+print(b)
